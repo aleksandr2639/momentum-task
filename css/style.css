@@ -34,7 +34,6 @@ body {
 
 .player {
   width: 200px;
-  margin-top: 20px;
   padding: 12px;
   background-color: rgb(128 128 128 / 43%);
   border-radius: 16px;
@@ -54,7 +53,6 @@ body {
 }
 
 .progress {
-  width: 10%;
   height: 6px;
   align-self: center;
   margin: 0 2px;
@@ -118,7 +116,6 @@ body {
 }
 
 .volume-bar {
-  width: 10%;
   height: 6px;
   align-self: center;
   margin: 0 2px;
@@ -372,7 +369,7 @@ body {
   min-height: 20px;
 }
 
-.lang-button {
+.footer-lang-link{
   display: flex;
   align-self: flex-start;
 }
@@ -389,6 +386,31 @@ body {
   cursor: pointer;
   border: 2px solid white;
   border-radius: 5px;
+}
+
+.link-list {
+  display: flex;
+  gap: 10px;
+  list-style-type: none; 
+}
+
+.link {
+ display: block;
+ background-repeat: no-repeat;
+}
+
+.link-github {
+  background-image: url("/svg/github.svg");
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+}
+
+.link-rs{
+  background-image: url("/svg/rs_school.svg");
+  width: 83px;
+  height: 30px;
+  background-size: 83px 30px;
 }
 
 @media (max-width: 768px) {
