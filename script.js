@@ -305,7 +305,7 @@ city.addEventListener('keypress', setCity);
     audio.addEventListener('ended', nextSong)
     
     
-   
+   console.log('8,9,10 пункты не выполнены')
 
    
 
