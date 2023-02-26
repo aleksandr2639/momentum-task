@@ -121,7 +121,7 @@ city.addEventListener('keypress', setCity);
   const slideNext = document.querySelector('.slide-next')
   const slidePrev = document.querySelector('.slide-prev')
  
-  const min = 0;
+  const min = 1;
   const max = 20;
   function getRandom(min, max) {
     min = Math.ceil(min);
